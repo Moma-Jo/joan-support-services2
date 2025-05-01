@@ -15,11 +15,9 @@
       display: flex;
       flex-direction: row;
     }
-    header {
-      background-color: #89b0ae;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
+    .container {
+      display: flex;
+      width: 100%;
     }
     main {
       flex: 3;
@@ -35,6 +33,13 @@
       height: auto;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header {
+      background-color: #89b0ae;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      width: 100%;
     }
     section {
       padding: 2rem 1rem;
@@ -59,74 +64,75 @@
   </style>
 </head>
 <body>
-  <main>
-    <header>
-      <h1>Jo-An S. Ferrer</h1>
-      <p>Independent Care Provider – Compassionate In-Home Support</p>
-    </header>
+  <div class="container">
+    <main>
+      <header>
+        <h1>Jo-An S. Ferrer</h1>
+        <p>Independent Care Provider – Compassionate In-Home Support</p>
+      </header>
 
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I’m a dedicated Personal Support Worker with over 13 years of experience providing care in both home and facility settings. I offer compassionate, hands-on assistance to individuals and families in need of a break—delivering respectful, personalized care that promotes dignity and comfort.
-      </p>
-    </section>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I’m a dedicated Personal Support Worker with over 13 years of experience providing care in both home and facility settings. I offer compassionate, hands-on assistance to individuals and families in need of a break—delivering respectful, personalized care that promotes dignity and comfort.
+        </p>
+      </section>
 
-    <section>
-      <h2>Services Offered</h2>
-      <ul>
-        <li>Personal care and hygiene assistance</li>
-        <li>Medication reminders and monitoring</li>
-        <li>Companionship and emotional support</li>
-        <li>Light housekeeping and meal preparation</li>
-        <li>Dementia and palliative care support</li>
-        <li>Mobility support and safe transfers</li>
-        <li>Respite care for family caregivers</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Services Offered</h2>
+        <ul>
+          <li>Personal care and hygiene assistance</li>
+          <li>Medication reminders and monitoring</li>
+          <li>Companionship and emotional support</li>
+          <li>Light housekeeping and meal preparation</li>
+          <li>Dementia and palliative care support</li>
+          <li>Mobility support and safe transfers</li>
+          <li>Respite care for family caregivers</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Experience</h2>
-      <p><strong>Stittsville Villa Retirement Living, ON</strong> (2025–Present)<br>
-        Supporting residents with daily living, emotional care, and wellness monitoring.</p>
-      <p><strong>Active Global Specialized Caregivers – Singapore</strong> (2011–2023)<br>
-        Cared for clients with dementia, stroke, and complex medical needs in a live-in setting.</p>
-      <p><strong>Ching Chyuan Hospital – Taiwan</strong> (2004–2006)<br>
-        Assisted in hospital patient care, including feeding, hygiene, and wound management.</p>
-    </section>
+      <section>
+        <h2>Experience</h2>
+        <p><strong>Stittsville Villa Retirement Living, ON</strong> (2025–Present)<br>
+          Supporting residents with daily living, emotional care, and wellness monitoring.</p>
+        <p><strong>Active Global Specialized Caregivers – Singapore</strong> (2011–2023)<br>
+          Cared for clients with dementia, stroke, and complex medical needs in a live-in setting.</p>
+        <p><strong>Ching Chyuan Hospital – Taiwan</strong> (2004–2006)<br>
+          Assisted in hospital patient care, including feeding, hygiene, and wound management.</p>
+      </section>
 
-    <section>
-      <h2>Certifications & Skills</h2>
-      <ul>
-        <li>First Aid & CPR Certified</li>
-        <li>Medication administration & vital signs monitoring</li>
-        <li>Tracheal suctioning & NGT feeding</li>
-        <li>Physical therapy assistance</li>
-        <li>Fluent in English, Tagalog, and advanced Mandarin</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Certifications & Skills</h2>
+        <ul>
+          <li>First Aid & CPR Certified</li>
+          <li>Medication administration & vital signs monitoring</li>
+          <li>Tracheal suctioning & NGT feeding</li>
+          <li>Physical therapy assistance</li>
+          <li>Fluent in English, Tagalog, and advanced Mandarin</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Rates</h2>
-      <p style="font-size: 1.1em;">
-        My services are available at <strong>$30 per hour</strong>, with a minimum booking of four hours. For full-day support, I offer a discounted flat rate of <strong>$200 for 8 hours</strong>.
-      </p>
-      <p style="font-size: 1.05em; color: #555;">
-        Whether you need a few hours of relief or full-day assistance, I’m here to help with compassionate and reliable care.
-      </p>
-    </section>
+      <section>
+        <h2>Rates</h2>
+        <p style="font-size: 1.1em;">
+          My services are available at <strong>$30 per hour</strong>, with a minimum booking of four hours. For full-day support, I offer a discounted flat rate of <strong>$200 for 8 hours</strong>.
+        </p>
+        <p style="font-size: 1.05em; color: #555;">
+          Whether you need a few hours of relief or full-day assistance, I’m here to help with compassionate and reliable care.
+        </p>
+      </section>
 
-    <div class="contact">
-      <h2>Contact</h2>
-      <p>📍 Stittsville, Ontario</p>
-      <p>📞 (613) 452-1081</p>
-      <p>📧 Vizyoung10@gmail.com</p>
-    </div>
-  </main>
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>📍 Stittsville, Ontario</p>
+        <p>📞 (613) 452-1081</p>
+        <p>📧 Vizyoung10@gmail.com</p>
+      </div>
+    </main>
 
-  <aside>
-    <img src="patient-face-replaced.jpg" alt="Jo-An with a client" />
-  </aside>
+    <aside>
+      <img src="patient-face-replaced.jpg" alt="Jo-An with a client" />
+    </aside>
+  </div>
 </body>
 </html>
-
