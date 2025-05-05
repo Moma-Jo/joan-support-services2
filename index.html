@@ -27,12 +27,26 @@
     background-color: #f7f9fb;
     color: #333;
   }
-  header {
+  .header-wrapper {
+    display: flex;
+    align-items: center;
     background-color: #89b0ae;
     color: white;
     padding: 2rem 1rem;
+  }
+  .header-text {
+    flex: 3;
+    padding-right: 2rem;
+  }
+  .header-image {
+    flex: 1;
     text-align: center;
-    width: 100%;
+  }
+  .header-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   .content-wrapper {
     display: flex;
@@ -49,12 +63,6 @@
     flex: 1;
     padding: 2rem 1rem;
     text-align: center;
-  }
-  .sidebar img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   section {
     margin-bottom: 2rem;
@@ -77,10 +85,15 @@
 </style>
 </head>
 <body>
-  <header>
-    <h1>Jo-An S. Ferrer</h1>
-    <p>Independent Care Provider – Compassionate In-Home Support</p>
-  </header>
+  <div class="header-wrapper">
+    <div class="header-text">
+      <h1>Jo-An S. Ferrer</h1>
+      <p>Independent Care Provider – Compassionate In-Home Support</p>
+    </div>
+    <div class="header-image">
+      <img src="patient-face-replaced.jpg" alt="Jo-An with a client" />
+    </div>
+  </div>
 
   <div class="content-wrapper">
     <div class="main-content">
@@ -99,6 +112,21 @@
         <p>Staying at home means seniors can maintain their routines, preserve their personal space, and remain close to family and friends. It also reduces the stress and disruption that can come from moving into an unfamiliar facility.</p>
         <p>With compassionate, consistent support, aging in place becomes a safe and empowering option. I offer personal care, household help, companionship, and respite services — all customized to help seniors thrive at home.</p>
         <p><strong>If your goal is to help a loved one age in place safely and happily</strong>, I’d be honoured to support your family.</p>
+      </section>
+
+      <section>
+        <h2>When Is the Right Time to Hire In-Home Support?</h2>
+        <p>Many families wait until there’s a crisis to seek extra help — a fall, a hospital stay, or a loved one’s sudden decline. But hiring a Personal Support Worker early can actually <em>prevent</em> these situations and ease stress for everyone involved.</p>
+        <p>If your parent or loved one is starting to:</p>
+        <ul>
+          <li>Forget appointments or medications,</li>
+          <li>Struggle with meals, hygiene, or housework,</li>
+          <li>Seem isolated or down,</li>
+          <li>Or if <em>you</em> as a caregiver feel overwhelmed,</li>
+        </ul>
+        <p>…it might be time to explore part-time in-home support.</p>
+        <p>Starting with a few hours a week builds trust and gives your loved one time to adjust. It also gives <em>you</em> peace of mind — knowing someone dependable is there when you can’t be.</p>
+        <p>If you’re unsure whether it’s time, I’m happy to chat and help you explore what’s right for your family.</p>
       </section>
 
       <section>
@@ -157,11 +185,8 @@
         <p>📧 Vizyoung10@gmail.com</p>
       </div>
     </div>
-
-    <div class="sidebar">
-      <img src="patient-face-replaced.jpg" alt="Jo-An with a client" />
-    </div>
   </div>
 </body>
 </html>
+
 
